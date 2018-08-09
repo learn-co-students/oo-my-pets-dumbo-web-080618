@@ -72,6 +72,7 @@ describe Owner do
 
       it 'knows about its fishes' do
         owner.buy_fish("Bubbles")
+        # binding.pry
         expect(owner.pets[:fishes][0].name).to eq("Bubbles")
       end
     end
