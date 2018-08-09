@@ -1,3 +1,4 @@
-class Cat
-  # code goes here
+require_relative 'animal.rb'
+class Cat < Animal
+
 end
